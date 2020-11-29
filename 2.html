@@ -1,52 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>변예슬의 20201124일정</title>
+    <head>
+        <title>변예슬의 20201124일정</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                margin: 0;
+            }
+            a {
+                color: black;
+                text-decoration: underline;
+            }
+            h1 {
+                font-size: 40px;
+                text-align: center;
+                border-bottom:1px solid gray;
+                margin: 0;
+                padding: 20px;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: 200px 1fr;
+            }
+            #grid1 {
+                border-right: 1px solid gray;
+                width:120px;
+                margin: 0;
+                padding-left: 10px;
+                padding-right: 30px;
+            }
+            #grid h3 {
+                text-align: center;
+            }
+        </style>
 </head>
 <body>
     <h1>20201124도 우당탕탕하게 보낸 예슬이의 하루</h1>
-    <h3>시간대별 사건</h3>
-    <ol>
-        <li><a href="4.html" target="_blank" title="2시 이전">출근 전</a></li>
-        <li>열일..</li>
-        <li><a href="5.html" target="_blank" title="5시~8시">퇴근 후 귀가 전</a></li>
-        <li><a href="3.html" target="_blank" title="8시 이후">귀가 후</a></li>
-    </ol>
-    <p>
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/wUxC51hG3xo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-
+    <div id="grid">
+        <div id="grid1">
+            <h3>시간대별 사건</h3>
+            <ol>
+                <li><a href="4.html" class="saw" target="_blank" title="2시 이전">출근 전</a></li>
+                <li>열일..</li>
+                <li><a href="5.html" class="saw" id="active" target="_blank" title="5시~8시">퇴근 후 귀가 전</a></li>
+                <li><a href="3.html" target="_blank" title="8시 이후">귀가 후</a></li>
+            </ol>
+        </div>
+        <div id="grid2">
+            <h3>이런 날도 있었지</h3>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wUxC51hG3xo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+        </div>
+        
+    </div>
     <div id="disqus_thread"></div>
     <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://comment1-6.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-      </script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5fc26087920fc91564cb8ae2/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://comment1-6.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
     </script>
-    <!--End of Tawk.to Script-->
+
+        <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5fc26087920fc91564cb8ae2/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
 </body>
 </html>
